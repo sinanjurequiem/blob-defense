@@ -5,7 +5,7 @@ class_name Weapon
 export var fire_rate = 0.05
 export var battery_size = 30
 export var reload_rate = 1
-export var automatic = true
+export var automatic = false
 
 onready var battery_label = $"/root/Spatial World/UI/Ammo counter"
 
